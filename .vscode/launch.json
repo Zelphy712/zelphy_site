@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cargo Run",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/zelphy_site/target/debug/zelphy_site.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/zelphy_site",
+            "env": {},
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "preLaunchTask": "cargo build"
+        }
+    ]
+}
